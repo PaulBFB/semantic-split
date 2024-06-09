@@ -9,7 +9,7 @@ packages = [{include = "semantic_split"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-sentence-transformers = "^2.2.2"
+sentence-transformers = "3.0.1"
 spacy = "^3.5.3"
 pytest = "^8.2.2"
 
