@@ -8,7 +8,7 @@ readme = "README.md"
 packages = [{include = "semantic_split"}]
 
 [tool.poetry.dependencies]
-python = "*"
+python = "^3.8"
 sentence-transformers = "^2.2.2"
 spacy = "^3.5.3"
 pytest = "^8.2.2"
