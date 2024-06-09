@@ -7,8 +7,8 @@ import spacy
 
 class SpacySentenceSplitter(Splitter):
 
-    def __init__(self):
-        self.nlp = spacy.load("en_core_web_sm")
+    def __init__(self, spacy_model: str = "en_core_web_sm"):
+        self.nlp = spacy.load(spacy_model)
 
     def split(self, text: str) -> List[str]:
         doc = self.nlp(text)
